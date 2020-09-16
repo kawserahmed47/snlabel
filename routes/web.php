@@ -27,7 +27,7 @@ Route::get('/machineries','FrontController@machineries')->name('machineries');
 Route::get('/machineries-details','FrontController@machineriesDetails')->name('machineriesDetails');
 
 Route::get('/gallery','FrontController@gallery')->name('gallery');
-Route::get('/carrer','FrontController@carrer')->name('carrer');
+Route::get('/career','FrontController@carrer')->name('carrer');
 Route::get('/faq','FrontController@faq')->name('faq');
 Route::get('/contact','FrontController@contact')->name('contact');
 

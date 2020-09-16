@@ -21,7 +21,7 @@
 @include('front.layouts.project') 
 <!--End latest project area-->
 
-<!--Start testimonial area--> 
+{{-- <!--Start testimonial area--> 
 <section class="testimonial-area">
     <div class="container">
         <div class="sec-title center text-center">
@@ -162,7 +162,7 @@
         </div>
     </div>
 </section>                                                                                       
-<!--End testimonial area-->
+<!--End testimonial area--> --}}
  
 <!--Start Brand area-->  
 @include('front.layouts.brand')

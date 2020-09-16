@@ -2,43 +2,10 @@
 @section('content')
  @include('front.layouts.banner')
 <!--Start welcome Industry area--> 
-<section class="welcome-industry-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="video-gallery-bg">
-                    <div class="video-gallery">    
-                        <img src="{{asset('public/front/img')}}/about/video-gallery.jpg" alt="Awesome Video Gallery">    
-                        <div class="overlay-gallery">
-                            <div class="box">
-                                <div class="content">
-                                    <a class="video-popup" href="https://www.youtube.com/watch?v=KssOT2QVg-M"><img src="{{asset('public/front/img')}}/resources/play-btn.png" alt="Awesome Image"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="content">
-                    <div class="sec-title">
-                        <p>Welcome to Industry Press</p>
-                        <h1>About Us</h1>    
-                    </div>
-                    <h3>We are providing good services to our valuable customers 
-                    <span>Purchase - Industry Press.</span></h3>
-                    <p>Over 24 years experience and knowledge international standards, technologicaly changes and industrial systems, we are dedicated to provides seds the best and economical solutions to our valued customers there us are many variations of of  but the passages majority have suffered mistaken idea denouncing.</p>
-                    <div class="caption-box">
-                        <p>Who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur</p>
-                        <h4>- Astley Feltcher</h4>
-                    </div>    
-                </div>
-            </div>
-        </div>
-    </div>     
-</section>
+@include('front.layouts.about')
+
 <!--End welcome Industry area--> 
- 
+ <br>
 <!--Start special service area--> 
 <section class="special-service-area">
     <div class="container-fluid">

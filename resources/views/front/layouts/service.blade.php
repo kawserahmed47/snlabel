@@ -6,15 +6,42 @@
             <h1>Our Services</h1>    
         </div>
         <div class="row">
+
             <!--Start single service item-->
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="single-service-item">
                     <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/services/1.jpg" alt="Awesome Image">
+                        <img src="{{asset('public/front/img')}}/services/service-1.jpg" alt="Awesome Image" style="width: 370px;height: 200px;">
                         <div class="overlay">
                             <div class="box">
                                 <div class="content">
-                                    <a class="thm-btn yellow-bg" href="chemical-research.html">Read More</a>
+                                    <a class="thm-btn yellow-bg" href="{{route('serviceDetails')}}">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <div class="icon">
+                            <span class="flaticon-nature-1"></span>    
+                        </div>
+                        <div class="text">
+                            <h3>PRINTED FABRIC LABEL</h3>
+                            <p>Price Tags are essentially tags that are typically made from paper stock (paper in varies weight and sizes) that are used to illustrate</p>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <!--End single service item-->        
+
+            <!--Start single service item-->
+			<div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-service-item">
+                    <div class="img-holder">
+                        <img src="{{asset('public/front/img')}}/services/service-2.png" alt="Awesome Image" style="width: 370px;height: 200px;">
+                        <div class="overlay">
+                            <div class="box">
+                                <div class="content">
+                                    <a class="thm-btn yellow-bg" href="{{route('serviceDetails')}}">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -24,58 +51,34 @@
                             <span class="flaticon-science"></span>    
                         </div>
                         <div class="text">
-                            <h3>Chemical Research</h3>
-                            <p>Chemical Research expertise in for you manipulating chemicals energy.</p>
+                            <h3>BOXES & PACKS</h3>
+                            <p>Label Solutions has been producing gift boxes, jersey boxes, and underwear boxes of our clients for many years</p>
                         </div>
                     </div>    
                 </div>
             </div>
-            <!--End single service item-->
+            <!--End single service item--> 
+
             <!--Start single service item-->
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="single-service-item">
                     <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/services/2.jpg" alt="Awesome Image">
+                        <img src="{{asset('public/front/img')}}/services/service-3.png" alt="Awesome Image" style="width: 370px;height: 200px;">
                         <div class="overlay">
                             <div class="box">
                                 <div class="content">
-                                    <a class="thm-btn yellow-bg" href="agri-processing.html">Read More</a>
+                                    <a class="thm-btn yellow-bg" href="{{route('serviceDetails')}}">Read More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="text-holder">
                         <div class="icon">
-                            <span class="flaticon-nature"></span>    
+                            <span class="flaticon-tool"></span>    
                         </div>
                         <div class="text">
-                            <h3>Agriculture Processing</h3>
-                            <p>Agricultural engineering at profession who developdesign procedure.</p>
-                        </div>
-                    </div>    
-                </div>
-            </div>
-            <!--End single service item-->  
-            <!--Start single service item-->
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="single-service-item">
-                    <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/services/3.jpg" alt="Awesome Image">
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="content">
-                                    <a class="thm-btn yellow-bg" href="petroleum-gas.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-holder">
-                        <div class="icon">
-                            <span class="flaticon-interface"></span>    
-                        </div>
-                        <div class="text">
-                            <h3>Petroleum and Gas</h3>
-                            <p>Petroleum Engineers are concerned with the petrol exploration, discovery.</p>
+                            <h3>HEAT TRANSFERS OR SCREEN PRINTS</h3>
+                            <p>Label Solutions is providing wide ranges of heat transfer labels to many clients those who are looking</p>
                         </div>
                     </div>    
                 </div>
@@ -87,11 +90,63 @@
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="single-service-item">
                     <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/services/4.jpg" alt="Awesome Image">
+                        <img src="{{asset('public/front/img')}}/services/service-4.png" alt="Awesome Image" style="width: 370px;height: 200px;">
                         <div class="overlay">
                             <div class="box">
                                 <div class="content">
-                                    <a class="thm-btn yellow-bg" href="material-engineering.html">Read More</a>
+                                    <a class="thm-btn yellow-bg" href="{{route('serviceDetails')}}">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <div class="icon">
+                            <span class="flaticon-nature"></span>    
+                        </div>
+                        <div class="text">
+                            <h3>NON WOVEN BAG</h3>
+                            <p>It’s hard to overstate the importance of garment labels–they communicate so much important information to your customer!</p>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <!--End single service item-->  
+
+            <!--Start single service item-->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-service-item">
+                    <div class="img-holder">
+                        <img src="{{asset('public/front/img')}}/services/service-5.png" alt="Awesome Image" style="width: 370px;height: 200px;">
+                        <div class="overlay">
+                            <div class="box">
+                                <div class="content">
+                                    <a class="thm-btn yellow-bg" href="{{route('serviceDetails')}}">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <div class="icon">
+                            <span class="flaticon-interface"></span>    
+                        </div>
+                        <div class="text">
+                            <h3>GRAPHIC STICKERS</h3>
+                            <p>It’s imperative to have a fabric friendly size strips on your apparels. We source the best raw material stickers for our clients</p>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <!--End single service item--> 
+             
+            <!--Start single service item-->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-service-item">
+                    <div class="img-holder">
+                        <img src="{{asset('public/front/img')}}/services/service-6.png" alt="Awesome Image" style="width: 370px;height: 200px;">
+                        <div class="overlay">
+                            <div class="box">
+                                <div class="content">
+                                    <a class="thm-btn yellow-bg" href="{{route('serviceDetails')}}">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -101,58 +156,8 @@
                             <span class="flaticon-folder"></span>    
                         </div>
                         <div class="text">
-                            <h3>Material Engineering</h3>
-                            <p>Materials Engineering should scientific & and engineering microstructure.</p>
-                        </div>
-                    </div>    
-                </div>
-            </div>
-            <!--End single service item-->  
-            <!--Start single service item-->
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="single-service-item">
-                    <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/services/5.jpg" alt="Awesome Image">
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="content">
-                                    <a class="thm-btn yellow-bg" href="power-energy.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-holder">
-                        <div class="icon">
-                            <span class="flaticon-nature-1"></span>    
-                        </div>
-                        <div class="text">
-                            <h3>Power and Energy</h3>
-                            <p>Ensuring high reliability and optimal sed performance of rotating power.</p>
-                        </div>
-                    </div>    
-                </div>
-            </div>
-            <!--End single service item-->  
-            <!--Start single service item-->
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="single-service-item">
-                    <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/services/6.jpg" alt="Awesome Image">
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="content">
-                                    <a class="thm-btn yellow-bg" href="mechanical-engin.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-holder">
-                        <div class="icon">
-                            <span class="flaticon-tool"></span>    
-                        </div>
-                        <div class="text">
-                            <h3>Mechanical Enginnering</h3>
-                            <p>Creating a dynamic company for that is continuous exploration & develop.</p>
+                            <h3>PRINTED FABRIC LABEL</h3>
+                            <p>Price Tags are essentially tags that are typically made from paper stock (paper in varies weight and sizes) that are used to illustrate</p>
                         </div>
                     </div>    
                 </div>

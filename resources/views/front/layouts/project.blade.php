@@ -18,7 +18,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="single-latest-project">
                     <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/1.jpg" alt="Awesome Image">
+                        <img src="{{asset('public/front/img')}}/project/hangtag.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
                         <div class="overlay-box">
                             <div class="box">
                                 <div class="content">
@@ -28,8 +28,8 @@
                         </div>    
                     </div>
                     <div class="title-holder text-center">
-                        <h4>Petroleum Gas</h4>
-                        <p>Chemical</p>    
+                        <h4>Hangtag Label</h4>
+                        <p></p>    
                     </div> 
                 </div>    
             </div>
@@ -38,7 +38,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="single-latest-project">
                     <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/2.jpg" alt="Awesome Image">
+                        <img src="{{asset('public/front/img')}}/project/printed_labels.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
                         <div class="overlay-box">
                             <div class="box">
                                 <div class="content">
@@ -48,8 +48,8 @@
                         </div>    
                     </div>
                     <div class="title-holder text-center">
-                        <h4>Multi Spring Push</h4>
-                        <p>Mechanical</p>    
+                        <h4>Ultrasonic Label</h4>
+                        <p></p>    
                     </div> 
                 </div>    
             </div>
@@ -58,7 +58,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="single-latest-project">
                     <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/3.jpg" alt="Awesome Image">
+                        <img src="{{asset('public/front/img')}}/project/wovenbadges.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
                         <div class="overlay-box">
                             <div class="box">
                                 <div class="content">
@@ -68,8 +68,8 @@
                         </div>    
                     </div>
                     <div class="title-holder text-center">
-                        <h4>Storage System</h4>
-                        <p>Power Energy</p>    
+                        <h4>Wovenbadges Label</h4>
+                        <p></p>    
                     </div> 
                 </div>    
             </div>
@@ -78,7 +78,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="single-latest-project">
                     <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/4.jpg" alt="Awesome Image">
+                        <img src="{{asset('public/front/img')}}/project/wovenlabels.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
                         <div class="overlay-box">
                             <div class="box">
                                 <div class="content">
@@ -88,8 +88,8 @@
                         </div>    
                     </div>
                     <div class="title-holder text-center">
-                        <h4>Manufacturing</h4>
-                        <p>Agricultural</p>    
+                        <h4>Woven Lavel</h4>
+                        <p></p>    
                     </div> 
                 </div>    
             </div>

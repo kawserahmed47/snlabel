@@ -15,13 +15,13 @@
                             <div class="overlay">
                                 <div class="box">
                                     <div class="content">
-                                        <a class="thm-btn yellow-bg" href="news-single.html">Read More</a>
+                                        <a class="thm-btn yellow-bg" href="{{route('newsDetails')}}">Read More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="text-holder">
-                            <a href="news-single.html">
+                            <a href="{{route('newsDetails')}}">
                                 <h2 class="blog-title">
                                     We Won Best Industries Services Award - 2015. 
                                 </h2>
@@ -54,13 +54,13 @@
                             <div class="overlay">
                                 <div class="box">
                                     <div class="content">
-                                        <a class="thm-btn yellow-bg" href="news-single.html">Read More</a>
+                                        <a class="thm-btn yellow-bg" href="{{route('newsDetails')}}">Read More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="text-holder">
-                            <a href="news-single.html">
+                            <a href="{{route('newsDetails')}}">
                                 <h2 class="blog-title">
                                     Materials & Manufacturing Service Engineers
                                 </h2>
@@ -93,13 +93,13 @@
                             <div class="overlay">
                                 <div class="box">
                                     <div class="content">
-                                        <a class="thm-btn yellow-bg" href="news-single.html">Read More</a>
+                                        <a class="thm-btn yellow-bg" href="{{route('newsDetails')}}">Read More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="text-holder">
-                            <a href="news-single.html">
+                            <a href="{{route('newsDetails')}}">
                                 <h2 class="blog-title">
                                     Materials for the Carbohydrate Economy
                                 </h2>

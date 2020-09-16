@@ -3,7 +3,7 @@
     <div class="container">
         <div class="logo pull-left">
             <a href="{{route('index')}}">
-                <img src="{{asset('public/front/img')}}/resources/logo.png" alt="Awesome Logo">
+                <img src="{{asset('public/front/img')}}/resources/logo123.png" alt="Awesome Logo">
             </a>
         </div>
         <div class="top-info pull-right">
@@ -13,7 +13,7 @@
                         <span class="flaticon-earth-grid"></span>
                     </div>
                     <div class="text-holder">
-                        <p><span>Address:</span> 20c Factory Street,<br>Newyork, NY 10205</p>
+                        <p><span>Address:</span>Pakuriya Road, R #23,<br>Sector #14,Uttara, Dhaka-1230</p>
                     </div>
                 </li>
                 <li class="single-info-box">
@@ -21,16 +21,17 @@
                         <span class="flaticon-email-envelope-back-symbol-on-phone-screen"></span>
                     </div>
                     <div class="text-holder">
-                        <p><span>Call Us:</span> +(321) 48 659 779<br>Mail@Industrypress.com</p>
+                        <p><span>Call Us:</span> <a href="tel:+8801730077033">+8801730077033</a><br> <span>Email:</span><a href="mailto:operation@snlabel.com">operation@snlabel.com</a></p>
+
                     </div>
                 </li>
                 <li>
                     <div class="social-links">
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/snlabel/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        </ul>    
+                        </ul>     
                     </div>
                 </li>
             </ul>    
@@ -98,7 +99,7 @@
                                 </li>
                                
                             <li><a href="{{route('news')}}">News</a></li>
-                            <li><a href="{{url('/carrer')}}">Career</a></li>
+                            <li><a href="{{url('/career')}}">Career</a></li>
                             <li><a href="{{route('contact')}}">Contact</a></li>
                             </ul>
                         </div>
