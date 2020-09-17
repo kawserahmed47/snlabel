@@ -5,6 +5,7 @@ Route::get('/', 'FrontController@index')->name('index');
 Route::get('/about', 'FrontController@about')->name('about');
 Route::get('/profile','FrontController@profile')->name('profile');
 Route::get('/sister-concerns','FrontController@sisterConcerns')->name('sisterConcerns');
+Route::get('/message-md','FrontController@mdMessage')->name('mdMessage');
 
 Route::get('/service','FrontController@service')->name('service');
 Route::get('/service-details','FrontController@serviceDetails')->name('serviceDetails');
@@ -27,7 +28,7 @@ Route::get('/machineries','FrontController@machineries')->name('machineries');
 Route::get('/machineries-details','FrontController@machineriesDetails')->name('machineriesDetails');
 
 Route::get('/gallery','FrontController@gallery')->name('gallery');
-Route::get('/career','FrontController@carrer')->name('carrer');
+Route::get('/career','FrontController@career')->name('carrer');
 Route::get('/faq','FrontController@faq')->name('faq');
 Route::get('/contact','FrontController@contact')->name('contact');
 

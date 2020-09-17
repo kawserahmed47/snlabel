@@ -31,7 +31,7 @@
                             <span class="flaticon-sign"></span>
                         </div>
                         <div class="content">
-                            <h2>Vision</h2>
+                            <h2>Mission-Vision</h2>
                             <p>Processing & Develop</p>
                         </div>
                     </a>
@@ -217,46 +217,11 @@
             <!--Start single tab content-->
             <div class="inner-box tab-pane fade active" id="histwo">
                 <div class="sec-title">
-                    <p>Innovation & Adoption</p>
-                    <h1>Technology</h1>
+                    <p>Our privacy policy</p>
+                    <h1>Policy</h1>
                 </div>
                 <div class="accordion-box">
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Working in Remote Environments</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>How all this mistaken idea of denouncing pleasure and praising pain was born and I will
-                                give you a complete account of the system, and expound the actual teachings of the great
-                                explorer of the truth.</p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn active">
-                            <h4>Minimizing the Harm of Hydrocarbons</h4>
-                        </div>
-                        <div class="accord-content collapsed">
-                            <p>How all this mistaken idea of denouncing pleasure and praising pain was born and I will
-                                give you a complete account of the system, and expound the actual teachings of the great
-                                explorer of the truth.</p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>Mineral extraction innovation</h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>How all this mistaken idea of denouncing pleasure and praising pain was born and I will
-                                give you a complete account of the system, and expound the actual teachings of the great
-                                explorer of the truth.</p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus veritatis aut, officia odit facere amet fugiat repudiandae pariatur voluptate praesentium voluptatem corrupti suscipit cum deserunt culpa quisquam voluptatum aspernatur! Pariatur.</p>
                 </div>
             </div>
             <!--End single tab content-->

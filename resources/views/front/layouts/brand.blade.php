@@ -8,27 +8,27 @@
             <div class="col-md-12">
                 <div class="brand">
                     <!--Start single item-->
-                    <div class="single-item">
-                        <a href="#"><img src="{{asset('public/front/img')}}/brand/brand-1.jpg" alt="Awesome Brand Image"></a>
+                    <div class="single-item" style="height: 200px">
+                        <a style="height:150px" href="#"><img src="{{asset('public/front/img')}}/brand/brand-1.jpg" alt="Awesome Brand Image"></a>
                     </div>
                     <!--End single item-->
                     <!--Start single item-->
-                    <div class="single-item">
+                    <div class="single-item" style="height: 200px">
                         <a href="#"><img src="{{asset('public/front/img')}}/brand/brand-2.png" alt="Awesome Brand Image"></a>
                     </div>
                     <!--End single item-->
                     <!--Start single item-->
-                    <div class="single-item">
-                        <a href="#"><img src="{{asset('public/front/img')}}/brand/brand-3.png" alt="Awesome Brand Image"></a>
+                    <div class="single-item" style="height: 200px">
+                        <a href="#"><img src="{{asset('public/front/img')}}/brand/brand-3.jpg" alt="Awesome Brand Image"></a>
                     </div>
                     <!--End single item-->
                     <!--Start single item-->
-                    <div class="single-item">
+                    <div class="single-item" style="height: 200px">
                         <a href="#"><img src="{{asset('public/front/img')}}/brand/brand-1.jpg" alt="Awesome Brand Image"></a>
                     </div>
                     <!--End single item-->
                     <!--Start single item-->
-                    <div class="single-item">
+                    <div class="single-item" style="height: 200px">
                         <a href="#"><img src="{{asset('public/front/img')}}/brand/brand-2.png" alt="Awesome Brand Image"></a>
                     </div>
                     <!--End single item-->
@@ -38,3 +38,6 @@
     </div>
 </section>
 <!--End Brand area-->
+
+
+<br><br>

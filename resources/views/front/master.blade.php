@@ -13,7 +13,7 @@
 	<!-- responsive stylesheet -->
 	<link rel="stylesheet" href="{{asset('public/front/css')}}/responsive.css">
 
-
+<link rel="shortcut icon" href="{{asset('public/front/img/resources/logo_favicon.png')}}" />
 </head>
 <body>
 	<!-- Modal -->

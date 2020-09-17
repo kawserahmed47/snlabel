@@ -2,8 +2,12 @@
 @section('content')
 @include('front.layouts.banner')
 
+<br><br>
+<h1>This Section is Under Construction</h1>
+<br><br>
+
 <!--Start solution area-->
-<section id="solution-single-area" class="chemical-research-area">
+{{-- <section id="solution-single-area" class="chemical-research-area">
     <div class="container">
         <div class="row">
             <div class="col-md-9 pull-right">
@@ -244,7 +248,7 @@
             </div>
         </div> 
     </div>
-</section>
+</section> --}}
 <!--End solution area-->  
     
 @endsection

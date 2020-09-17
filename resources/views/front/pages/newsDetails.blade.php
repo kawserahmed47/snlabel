@@ -1,8 +1,13 @@
 @extends('front.master')
 @section('content')
 @include('front.layouts.banner')
+<br><br>
+<h1>This Section is Under Construction</h1>
+<br><br>
+
+
 <!--Start Single news area-->                                                                                 
-<section id="news-area" class="single-news-area">
+{{-- <section id="news-area" class="single-news-area">
     <div class="container">
         <div class="row">
             <!--Start blog post-->
@@ -311,7 +316,7 @@
             <!--End Sidebar Wrapper-->                               
         </div>
     </div>
-</section>                                  
+</section>                                   --}}
 <!--End Single news area--> 
   
     

@@ -5,194 +5,253 @@
 <!--Start project area-->
 <section id="project-area">
     <div class="container">
-        <ul class="project-filter post-filter text-center">
-            <li class="active" data-filter=".filter-item"><span>View All</span></li>
-            <li data-filter=".chemical"><span>Chemical</span></li>
-            <li data-filter=".agriculture"><span>Agriculture</span></li>
-            <li data-filter=".technology"><span>Technology</span></li>
-            <li data-filter=".mechanical"><span>Mechanical</span></li>
-        </ul>
         <div class="row project-content masonary-layout filter-layout">
-            <!--Start single project-->
-            <div class="col-md-4 col-sm-4 col-xs-12 filter-item agriculture technology chemical">
-                <div class="single-project">
-                    <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/project-v1-1.jpg" alt="Awesome Image">
-                        <div class="overlay-box">
-                            <div class="box">
-                                <div class="content">
-                                    <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    <div class="title">
-                                        <h3>Petroleum Gas</h3>
-                                        <span>Chemical</span>
+                <!--Start single latest project-->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-latest-project">
+                        <div class="img-holder">
+                            <img src="{{asset('public/front/img')}}/project/hangtag.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
+                            <div class="overlay-box">
+                                <div class="box">
+                                    <div class="content">
+                                        <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div>    
                         </div>
-                    </div>   
+                        <div class="title-holder text-center">
+                            <h4>Hangtag Label</h4>
+                            <p></p>    
+                        </div> 
+                    </div>    
                 </div>
-            </div>
-            <!--End single project-->
-            <!--Start single project-->
-            <div class="col-md-4 col-sm-4 col-xs-12 filter-item technology mechanical">
-                <div class="single-project">
-                    <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/project-v1-2.jpg" alt="Awesome Image">
-                        <div class="overlay-box">
-                            <div class="box">
-                                <div class="content">
-                                    <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    <div class="title">
-                                        <h3>Petroleum Gas</h3>
-                                        <span>Chemical</span>
+                <!--End single latest project-->
+                <!--Start single latest project-->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-latest-project">
+                        <div class="img-holder">
+                            <img src="{{asset('public/front/img')}}/project/printed_labels.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
+                            <div class="overlay-box">
+                                <div class="box">
+                                    <div class="content">
+                                        <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div>    
                         </div>
-                    </div>   
+                        <div class="title-holder text-center">
+                            <h4>Ultrasonic Label</h4>
+                            <p></p>    
+                        </div> 
+                    </div>    
                 </div>
-            </div>
-            <!--End single project-->
-            <!--Start single project-->
-            <div class="col-md-4 col-sm-4 col-xs-12 filter-item chemical agriculture technology">
-                <div class="single-project">
-                    <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/project-v1-3.jpg" alt="Awesome Image">
-                        <div class="overlay-box">
-                            <div class="box">
-                                <div class="content">
-                                    <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    <div class="title">
-                                        <h3>Petroleum Gas</h3>
-                                        <span>Chemical</span>
+                <!--End single latest project-->
+                <!--Start single latest project-->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-latest-project">
+                        <div class="img-holder">
+                            <img src="{{asset('public/front/img')}}/project/wovenbadges.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
+                            <div class="overlay-box">
+                                <div class="box">
+                                    <div class="content">
+                                        <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div>    
                         </div>
-                    </div>   
+                        <div class="title-holder text-center">
+                            <h4>Wovenbadges Label</h4>
+                            <p></p>    
+                        </div> 
+                    </div>    
                 </div>
-            </div>
-            <!--End single project-->
-            <!--Start single project-->
-            <div class="col-md-4 col-sm-4 col-xs-12 filter-item agriculture technology mechanical">
-                <div class="single-project">
-                    <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/project-v1-4.jpg" alt="Awesome Image">
-                        <div class="overlay-box">
-                            <div class="box">
-                                <div class="content">
-                                    <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    <div class="title">
-                                        <h3>Petroleum Gas</h3>
-                                        <span>Chemical</span>
+                <!--End single latest project-->
+                <!--Start single latest project-->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-latest-project">
+                        <div class="img-holder">
+                            <img src="{{asset('public/front/img')}}/project/wovenlabels.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
+                            <div class="overlay-box">
+                                <div class="box">
+                                    <div class="content">
+                                        <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div>    
                         </div>
-                    </div>   
+                        <div class="title-holder text-center">
+                            <h4>Woven Lavel</h4>
+                            <p></p>    
+                        </div> 
+                    </div>    
                 </div>
-            </div>
-            <!--End single project-->
-            <!--Start single project-->
-            <div class="col-md-4 col-sm-4 col-xs-12 filter-item chemical technology">
-                <div class="single-project">
-                    <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/project-v1-5.jpg" alt="Awesome Image">
-                        <div class="overlay-box">
-                            <div class="box">
-                                <div class="content">
-                                    <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    <div class="title">
-                                        <h3>Petroleum Gas</h3>
-                                        <span>Chemical</span>
+                <!--End single latest project-->
+                   <!--Start single  project-->
+                   <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-latest-project">
+                        <div class="img-holder">
+                            <img src="{{asset('public/front/img')}}/project/wovenlabels.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
+                            <div class="overlay-box">
+                                <div class="box">
+                                    <div class="content">
+                                        <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div>    
                         </div>
-                    </div>   
+                        <div class="title-holder text-center">
+                            <h4>Woven Lavel</h4>
+                            <p></p>    
+                        </div> 
+                    </div>    
                 </div>
-            </div>
-            <!--End single project-->
-            <!--Start single project-->
-            <div class="col-md-4 col-sm-4 col-xs-12 filter-item chemical agriculture">
-                <div class="single-project">
-                    <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/project-v1-6.jpg" alt="Awesome Image">
-                        <div class="overlay-box">
-                            <div class="box">
-                                <div class="content">
-                                    <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    <div class="title">
-                                        <h3>Petroleum Gas</h3>
-                                        <span>Chemical</span>
+                <!--End single project-->
+
+                       <!--Start single  project-->
+                       <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-latest-project">
+                            <div class="img-holder">
+                                <img src="{{asset('public/front/img')}}/project/wovenlabels.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
+                                <div class="overlay-box">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="title-holder text-center">
+                                <h4>Woven Lavel</h4>
+                                <p></p>    
+                            </div> 
+                        </div>    
+                    </div>
+                    <!--End single project-->
+
+                           <!--Start single  project-->
+                   <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-latest-project">
+                        <div class="img-holder">
+                            <img src="{{asset('public/front/img')}}/project/wovenlabels.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
+                            <div class="overlay-box">
+                                <div class="box">
+                                    <div class="content">
+                                        <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div>    
                         </div>
-                    </div>   
+                        <div class="title-holder text-center">
+                            <h4>Woven Lavel</h4>
+                            <p></p>    
+                        </div> 
+                    </div>    
                 </div>
-            </div>
-            <!--End single project-->
-            <!--Start single project-->
-            <div class="col-md-4 col-sm-4 col-xs-12 filter-item chemical mechanical">
-                <div class="single-project">
-                    <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/project-v1-7.jpg" alt="Awesome Image">
-                        <div class="overlay-box">
-                            <div class="box">
-                                <div class="content">
-                                    <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    <div class="title">
-                                        <h3>Petroleum Gas</h3>
-                                        <span>Chemical</span>
+                <!--End single project-->
+
+                       <!--Start single  project-->
+                       <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-latest-project">
+                            <div class="img-holder">
+                                <img src="{{asset('public/front/img')}}/project/wovenlabels.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
+                                <div class="overlay-box">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="title-holder text-center">
+                                <h4>Woven Lavel</h4>
+                                <p></p>    
+                            </div> 
+                        </div>    
+                    </div>
+                    <!--End single project-->
+
+                           <!--Start single  project-->
+                   <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-latest-project">
+                        <div class="img-holder">
+                            <img src="{{asset('public/front/img')}}/project/wovenlabels.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
+                            <div class="overlay-box">
+                                <div class="box">
+                                    <div class="content">
+                                        <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div>    
                         </div>
-                    </div>   
+                        <div class="title-holder text-center">
+                            <h4>Woven Lavel</h4>
+                            <p></p>    
+                        </div> 
+                    </div>    
                 </div>
-            </div>
-            <!--End single project-->
-            <!--Start single project-->
-            <div class="col-md-4 col-sm-4 col-xs-12 filter-item technology agriculture">
-                <div class="single-project">
-                    <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/project-v1-8.jpg" alt="Awesome Image">
-                        <div class="overlay-box">
-                            <div class="box">
-                                <div class="content">
-                                    <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    <div class="title">
-                                        <h3>Petroleum Gas</h3>
-                                        <span>Chemical</span>
+                <!--End single project-->
+
+                       <!--Start single  project-->
+                       <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-latest-project">
+                            <div class="img-holder">
+                                <img src="{{asset('public/front/img')}}/project/wovenlabels.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
+                                <div class="overlay-box">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="title-holder text-center">
+                                <h4>Woven Lavel</h4>
+                                <p></p>    
+                            </div> 
+                        </div>    
+                    </div>
+                    <!--End single project-->
+                           <!--Start single  project-->
+                   <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-latest-project">
+                        <div class="img-holder">
+                            <img src="{{asset('public/front/img')}}/project/wovenlabels.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
+                            <div class="overlay-box">
+                                <div class="box">
+                                    <div class="content">
+                                        <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div>    
                         </div>
-                    </div>   
+                        <div class="title-holder text-center">
+                            <h4>Woven Lavel</h4>
+                            <p></p>    
+                        </div> 
+                    </div>    
                 </div>
-            </div>
-            <!--End single project-->
-            <!--Start single project-->
-            <div class="col-md-4 col-sm-4 col-xs-12 filter-item technology chemical mechanical">
-                <div class="single-project">
-                    <div class="img-holder">
-                        <img src="{{asset('public/front/img')}}/project/project-v1-9.jpg" alt="Awesome Image">
-                        <div class="overlay-box">
-                            <div class="box">
-                                <div class="content">
-                                    <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    <div class="title">
-                                        <h3>Petroleum Gas</h3>
-                                        <span>Chemical</span>
+                <!--End single project-->
+
+                       <!--Start single  project-->
+                       <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-latest-project">
+                            <div class="img-holder">
+                                <img src="{{asset('public/front/img')}}/project/wovenlabels.jpg"  style="width: 370px; height: 227px;" alt="Awesome Image">
+                                <div class="overlay-box">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="{{route('projectDetails')}}"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
                                     </div>
-                                </div>
+                                </div>    
                             </div>
-                        </div>
-                    </div>   
-                </div>
-            </div>
-            <!--End single project-->
+                            <div class="title-holder text-center">
+                                <h4>Woven Lavel</h4>
+                                <p></p>    
+                            </div> 
+                        </div>    
+                    </div>
+                    <!--End single project-->
         </div>
         <div class="row">
             <div class="col-md-12">

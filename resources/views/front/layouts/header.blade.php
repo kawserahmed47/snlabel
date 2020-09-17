@@ -59,25 +59,21 @@
                                 <li class="current"><a href="{{route('index')}}">Home</a></li>
                                 <li class="dropdown"><a href="{{route('about')}}">About</a>
                                     <ul>
-                                        <li><a href="{{route('serviceDetails')}}">About Us</a></li>
-                                        <li><a href="{{route('serviceDetails')}}">Message of MD</a></li>
-                                        <li><a href="{{route('serviceDetails')}}">Mission and Vision</a></li>
-                                        <li><a href="{{route('serviceDetails')}}">Sister Concern</a></li>
-                                        <li><a href="{{route('serviceDetails')}}">Our Team</a></li>
+                                        <li><a href="{{route('about')}}">About Us</a></li>
+                                        <li><a href="{{route('mdMessage')}}">Message of MD</a></li>
+                                        <li><a href="{{route('sisterConcerns')}}">Sister Concern</a></li>
+                                        <li><a href="{{route('team')}}">Our Team</a></li>
                                         <li><a href="{{route('gallery')}}">Gallery</a></li>
-                                        <li><a href="{{route('serviceDetails')}}">FAQ</a></li>
+                                        <li><a href="{{route('faq')}}">FAQ</a></li>
                                     </ul>
                                 
                                 </li>
-                                <li class="dropdown"><a href="{{route('service')}}">Services</a>
-                                    <ul>
-                                        <li><a href="{{route('serviceDetails')}}">Chemical Research</a></li>
-                                        <li><a href="{{route('serviceDetails')}}">Agriculture Processing</a></li>
-                                        <li><a href="{{route('serviceDetails')}}">Petroleum and Gas</a></li>
-                                        <li><a href="{{route('serviceDetails')}}">Material Engineering</a></li>
-                                        <li><a href="{{route('serviceDetails')}}">Power and Energy</a></li>
-                                        <li><a href="{{route('serviceDetails')}}">Mechanical Engineering</a></li>
-                                    </ul>
+                                {{-- <li class="dropdown"><a href="{{route('service')}}">Services</a> --}}
+                                <li><a href="{{route('service')}}">Services</a>
+                                    {{-- <ul>
+                                        <li><a href="{{route('service')}}">All Services</a></li>
+                                        <li><a href="{{route('serviceDetails')}}">Service Details</a></li>
+                                    </ul> --}}
                                 </li>
                 
 
@@ -88,14 +84,13 @@
                                     </ul>
                                 </li>
                            
-                            <li class="dropdown"><a href="{{route('machineries')}}">Machineries</a>
-                                    <ul>
+                            {{-- <li class="dropdown"><a href="{{route('machineries')}}">Machineries</a> --}}
+                                <li><a href="{{route('machineries')}}">Machineries</a>
+
+                                    {{-- <ul>
+                                    <li><a href="{{route('machineries')}}">All Machineries</a></li>
                                     <li><a href="{{route('machineriesDetails')}}">Machinery Detials</a></li>
-                                        {{-- <li><a href="shop-single.html">Shop Single</a></li>
-                                        <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                        <li><a href="checkout.html">Checkout Page</a></li>
-                                        <li><a href="account.html">My Account</a></li> --}}
-                                    </ul>
+                                    </ul> --}}
                                 </li>
                                
                             <li><a href="{{route('news')}}">News</a></li>

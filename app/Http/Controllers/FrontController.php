@@ -34,6 +34,12 @@ class FrontController extends Controller
 
     }
 
+    public function mdMessage(){
+        $data = array();
+        $data['title']= "Message of MD";
+        return view('front.pages.mdMessage',$data);
+    }
+
 
     public function service(){
         $data = array();
@@ -131,10 +137,10 @@ class FrontController extends Controller
 
     }
 
-    public function carrer(){
+    public function career(){
         $data = array();
-        $data['title']= "Carrer";
-        return view('front.pages.carrer',$data);
+        $data['title']= "Career";
+        return view('front.pages.career',$data);
 
 
     }
